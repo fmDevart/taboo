@@ -1,0 +1,16 @@
+{
+    "cards":[
+        {
+            "obj": "parola 1",
+            "taboos":["taboo 1", "taboo 2","taboo 3", "taboo 4", "taboo 5"]
+        },
+        {
+            "obj": "parola 2",
+            "taboos":["taboo 6", "taboo 7","taboo 8", "taboo 9", "taboo 10"]
+        },
+        {
+            "obj": "parola 3",
+            "taboos":["taboo p3 1", "taboo p3 2","taboo p3 3", "taboo p3 4", "taboo p3 5"]
+        }
+    ]
+}
