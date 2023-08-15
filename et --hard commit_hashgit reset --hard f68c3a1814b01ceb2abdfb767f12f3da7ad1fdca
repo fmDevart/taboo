@@ -1,0 +1,67 @@
+[33mcommit abde73896babf7fcf31a3750dd47b112253164c4[m[33m ([m[1;36mHEAD -> [m[1;32mmerging[m[33m, [m[1;31morigin/merging[m[33m)[m
+Author: simoneloop <simonelopez@hotmail.it>
+Date:   Tue Aug 15 15:48:47 2023 +0200
+
+    Fix gitignore
+
+[33mcommit defb57d92bf112a1517b826026f08b13cec9282b[m
+Merge: f68c3a1 d5198b0
+Author: simoneloop <simonelopez@hotmail.it>
+Date:   Tue Aug 15 15:11:41 2023 +0200
+
+    Merge branch 'merging' of https://github.com/fmDevart/taboo into merging
+
+[33mcommit f68c3a1814b01ceb2abdfb767f12f3da7ad1fdca[m
+Author: simoneloop <simonelopez@hotmail.it>
+Date:   Tue Aug 15 15:11:06 2023 +0200
+
+    Create gitignore.txt
+
+[33mcommit d5198b00ed72d8779915f778832e8096c9c791b4[m
+Merge: 7b8bcac 6e27e31
+Author: simoneloop <simonelopez@hotmail.it>
+Date:   Tue Aug 15 14:55:35 2023 +0200
+
+    Merge remote-tracking branch 'origin/main' into merging
+
+[33mcommit 6e27e312a5befeb4b5a1af0824841b70bfb89c36[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: simoneloop <simonelopez@hotmail.it>
+Date:   Tue Aug 15 14:45:31 2023 +0200
+
+    commit inutile
+
+[33mcommit 7b8bcac935546e5d758ca146de3bfce7db6f2b36[m
+Author: simoneloop <simonelopez@hotmail.it>
+Date:   Tue Aug 15 14:28:15 2023 +0200
+
+    init merging
+
+[33mcommit 23ba0ad72fb3375497120dd289ed58933a75620c[m
+Author: fmDevart <mesuracafrancesco2@gmail.com>
+Date:   Tue Aug 15 14:26:50 2023 +0200
+
+    commit pazzo
+
+[33mcommit 143a8ffa9ab955c3ac13591b5b1c69b95196a4c4[m[33m ([m[1;31morigin/streamingAssets[m[33m, [m[1;32mstreamingAssets[m[33m)[m
+Author: simoneloop <simonelopez@hotmail.it>
+Date:   Tue Aug 15 07:09:32 2023 +0200
+
+    init streamingAssets
+
+[33mcommit 3c0cb518ac8b079f812eb72418f3471a1c4eeed3[m
+Author: simoneloop <simonelopez@hotmail.it>
+Date:   Tue Aug 15 05:26:30 2023 +0200
+
+    init streamingAssets
+
+[33mcommit f8f0bcf011deed1950678af71a93719237bf4279[m
+Author: simoneloop <simonelopez@hotmail.it>
+Date:   Tue Aug 15 02:56:16 2023 +0200
+
+    init lopez
+
+[33mcommit fe3c5965e801ef7e5abd193e944f0c5b8c6e41d0[m
+Author: fmDevart <mesuracafrancesco2@gmail.com>
+Date:   Tue Aug 15 00:55:51 2023 +0200
+
+    first commit
