@@ -15,8 +15,10 @@ public class UIManager : MonoBehaviour
     public Transform bodyPanel;
     public Transform titlePanel;
     public TMP_Text textComponent;
-    private TMP_Text[] taboos;
+    private GameObject[] taboos = new GameObject[5];
     public string titleToShow;
+    public GameObject tabooVoice;
+    public string[] voices = new string[5];
     // Start is called before the first frame update
     void Start()
     {
@@ -26,9 +28,12 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.instance.GetCards() != null)
+        if (GameManager.instance.GetCards() != null && this.cards == null)
         {
             this.cards = GameManager.instance.GetCards();
+            this.cardToShow = this.cards.cards[index];
+
+          
         }
 
         if (this.cards != null)
@@ -40,18 +45,35 @@ public class UIManager : MonoBehaviour
             if (!spawned)
             {
                 spawned = Instantiate(toSpawn, transform);
+                titlePanel = spawned.transform.GetChild(0);
+                bodyPanel = spawned.transform.GetChild(1);
+                for (int i = 0; i < cardToShow.taboos.Length; i++)
+                {
+                    taboos[i] = Instantiate(tabooVoice, transform);
+                    taboos[i].transform.SetParent(bodyPanel);
+
+                }
             }
 
 
-            titlePanel = spawned.transform.GetChild(0);
-            bodyPanel = spawned.transform.GetChild(1);
+     
 
             textComponent = titlePanel.GetComponentInChildren<TMP_Text>();
 
 
             textComponent.text = cardToShow.obj;
 
-            
+            for (int i = 0; i < cardToShow.taboos.Length; i++)
+            {
+                voices[i] = cardToShow.taboos[i];
+                taboos[i].GetComponent<TMP_Text>().text = cardToShow.taboos[i];
+
+            }
+
+
+
+
+
 
 
 
