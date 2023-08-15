@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 40208118}
   - component: {fileID: 40208117}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Ping
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -149,11 +149,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 40208116}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14d74be7a6b09264e986ac4ad6595af8, type: 3}
+  m_Script: {fileID: 11500000, guid: 43ff201508b13da49bc9c6e1ba8557c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cards:
-    cards: []
+  cats: []
 --- !u!4 &40208118
 Transform:
   m_ObjectHideFlags: 0
@@ -272,12 +271,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 648749843}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bba47dd209d3bb341aa29337e344b9d3, type: 3}
+  m_Script: {fileID: 11500000, guid: e4cda1a308365544182f2a07503a20ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textJSON: {fileID: 4900000, guid: 5b119870a056b1048874cf0a381a1389, type: 3}
-  cards:
-    cards: []
+  textJSON: {fileID: 0}
 --- !u!4 &648749845
 Transform:
   m_ObjectHideFlags: 0
@@ -666,11 +663,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1185186962}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 899e285392fe43146845dfe4e64f039f, type: 3}
+  m_Script: {fileID: 11500000, guid: 6e12e98f8df578c4d8b68d2578b521ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cards:
-    cards: []
+  selectedCat: 
+  decks: []
 --- !u!4 &1185186964
 Transform:
   m_ObjectHideFlags: 0
