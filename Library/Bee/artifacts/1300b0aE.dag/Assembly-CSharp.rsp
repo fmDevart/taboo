@@ -350,6 +350,8 @@
 "Assets/GameManager.cs"
 "Assets/JSONreader.cs"
 "Assets/NewBehaviourScript.cs"
+"Assets/NewBehaviourScript1.cs"
+"Assets/UIManager.cs"
 -langversion:9.0
 
 /deterministic

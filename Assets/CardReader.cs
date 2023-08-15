@@ -5,7 +5,6 @@ using UnityEngine;
 public class CardReader : MonoBehaviour
 {
 
-    private bool ready = false;
     public Cards cards;
     // Start is called before the first frame update
     void Start()

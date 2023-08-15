@@ -56,12 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\NewBehaviourScript.cs" />
-    <Compile Include="Assets\JSONreader.cs" />
-    <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\Cards.cs" />
-    <Compile Include="Assets\Card.cs" />
     <Compile Include="Assets\CardReader.cs" />
+    <Compile Include="Assets\Card.cs" />
+    <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\JSONreader.cs" />
+    <Compile Include="Assets\NewBehaviourScript.cs" />
+    <Compile Include="Assets\UIManager.cs" />
+    <Compile Include="Assets\NewBehaviourScript1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
