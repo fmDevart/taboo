@@ -344,11 +344,11 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Card.cs"
-"Assets/CardReader.cs"
-"Assets/Cards.cs"
-"Assets/GameManager.cs"
-"Assets/JSONreader.cs"
+"Assets/Scripts/CardReader.cs"
+"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/JSONreader.cs"
+"Assets/Scripts/Models/Card.cs"
+"Assets/Scripts/Models/Deck.cs"
 -langversion:9.0
 
 /deterministic
