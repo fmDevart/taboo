@@ -12,6 +12,7 @@ public class JSONreader : MonoBehaviour
     {
 
         cards = JsonUtility.FromJson<Cards>(textJSON.text);
+
         Debug.Log(" [JSON READER] riempio le carte da GM");
 
         GameManager.instance.SetCards(cards);

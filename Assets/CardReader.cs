@@ -23,6 +23,7 @@ public class CardReader : MonoBehaviour
 
     private void fill() {
         this.cards = GameManager.instance.GetCards();
+
         Debug.Log("[CARD READER} Ho riempito le carte");
 
     }
