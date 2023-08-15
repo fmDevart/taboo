@@ -7,6 +7,9 @@ public class CardReader : MonoBehaviour
 
     private bool ready = false;
     public Cards cards;
+    public string[] cats;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +26,7 @@ public class CardReader : MonoBehaviour
 
     private void fill() {
         this.cards = GameManager.instance.GetCards();
-
+        cats = new List<string>(GameManager.instance.getAll().Keys).ToArray();
         Debug.Log("[CARD READER} Ho riempito le carte");
 
     }

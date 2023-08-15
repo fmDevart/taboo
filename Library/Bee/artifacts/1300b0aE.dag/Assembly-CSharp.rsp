@@ -349,7 +349,6 @@
 "Assets/Cards.cs"
 "Assets/GameManager.cs"
 "Assets/JSONreader.cs"
-"Assets/NewBehaviourScript.cs"
 -langversion:9.0
 
 /deterministic

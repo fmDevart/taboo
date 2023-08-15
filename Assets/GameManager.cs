@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private Cards cards;
     public static event CardFilledEventHandler CardsFilled;
+    [SerializeField]
+    public Dictionary<string, Cards> catAndDecks = new Dictionary<string, Cards>();
 
     private void Awake()
     {
@@ -41,7 +43,17 @@ public class GameManager : MonoBehaviour
     public void SetCards( Cards cards)
     {
         this.cards = cards;
+        
+    }
+    public void addCard(string cat, Cards deck) {
+        catAndDecks.Add(cat, deck);
+        Debug.Log("aggiungo alla categoria: " + cat + " il deck:" + deck);
         CardsFilled?.Invoke();
     }
-    
+    public Dictionary<string, Cards> getAll() {
+        return catAndDecks;
+    }
+
+
+
 }
